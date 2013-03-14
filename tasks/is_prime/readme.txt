@@ -2,10 +2,16 @@
 
 2. Add some tests to test.c
 
-3. Start build.sh to 
-	link your test.o against bad__is_prime.o (an existing bad implementation of is_prime)
-	link solution_test.o against your is_prime implementatio
+3. Run ./build.sh
+You should get two binaries:
 
-4. Run test_good to test your implementation and test_bad to test the existing bad implementation
+your_test_for_solution:
+	This binary contains the tests you implemented and runs them against a bad implementation of "is_prime".
+
+test_for_your_solution: 
+	This binary contains some predefined tests and runs them against your implementation of "is_prime"
+
+your_test_for_your_solution:
+	This binary contains the tests you implemented and runs them against your implementation of "is_prime"
 
 	
