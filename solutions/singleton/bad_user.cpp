@@ -1,4 +1,4 @@
-#include "bad_singleton.h"
+#include "../../tasks/singleton/singleton.h"
 #include "user.h"
 
 User::User() {
