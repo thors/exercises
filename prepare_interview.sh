@@ -7,9 +7,6 @@ export TASKS=$ROOT/tasks
 echo "Delete old object files"
 rm `find . -name "*.o"`
 
-cd $ROOT/solutions/singleton
-./build.sh
-cp *user.o  $TASKS/singleton
 
 cd $SOLUTIONS/is_prime
 ./build.sh
